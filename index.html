@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Card Checkbox</title>
+    <!-- I'm using FontAwesome for the icons -->
+    <!-- In this folder I have 3 laptop images so we can have 3 products(cards), but I won't change their info(name, performance etc...) since this is just an example -->
+</head>
+<body>
+    <div class="container">
+        <input type="radio" name="card" id="card_one">
+        <input type="radio" name="card" id="card_two">
+        <input type="radio" name="card" id="card_three">
+        <!-- they should all have the same name attr but different ids -->
+        <label for="card_one">
+            <div class="card">
+                <span class="check_btn"><i class="fas fa-check"></i></span>
+                <div class="img">
+                    <img src="img/image_1.jpg" alt="">
+                </div>
+                <h2 class="title">Lenovo Legion 7</h2>
+                <ul>
+                    <li>Ports: <span>3</span></li>
+                    <!-- you can add your info here. I'll skip... -->
+                    <li>CPU: <span>Intel Core i7</span></li>
+                    <li>Ram: <span>16GB Ram DDR4</span></li>
+                    <li>SSD: <span>1TR</span></li>
+                    <li>Graphic Card: <span>NVIDIA GeForce RTX 3070</span></li>
+                    <li>Color: <span>Grey</span></li>
+                    <!-- these are all the infos I added -->
+                </ul>
+            </div>
+        </label>
+        <label for="card_two">
+            <div class="card">
+                <span class="check_btn"><i class="fas fa-check"></i></span>
+                <div class="img">
+                    <img src="img/image_2.jpg" alt="">
+                </div>
+                <h2 class="title">Lenovo Legion 7</h2>
+                <ul>
+                    <li>Ports: <span>3</span></li>
+                    <!-- you can add your info here. I'll skip... -->
+                    <li>CPU: <span>Intel Core i7</span></li>
+                    <li>Ram: <span>16GB Ram DDR4</span></li>
+                    <li>SSD: <span>1TR</span></li>
+                    <li>Graphic Card: <span>NVIDIA GeForce RTX 3070</span></li>
+                    <li>Color: <span>Grey</span></li>
+                    <!-- these are all the infos I added -->
+                </ul>
+            </div>
+        </label>
+        <label for="card_three">
+            <div class="card">
+                <span class="check_btn"><i class="fas fa-check"></i></span>
+                <div class="img">
+                    <img src="img/image_3.jpg" alt="">
+                </div>
+                <h2 class="title">Lenovo Legion 7</h2>
+                <ul>
+                    <li>Ports: <span>3</span></li>
+                    <!-- you can add your info here. I'll skip... -->
+                    <li>CPU: <span>Intel Core i7</span></li>
+                    <li>Ram: <span>16GB Ram DDR4</span></li>
+                    <li>SSD: <span>1TR</span></li>
+                    <li>Graphic Card: <span>NVIDIA GeForce RTX 3070</span></li>
+                    <li>Color: <span>Grey</span></li>
+                    <!-- these are all the infos I added -->
+                </ul>
+            </div>
+        </label>
+    </div>
+</body>
+</html>
+
+<!-- thats all for the HTML -->
